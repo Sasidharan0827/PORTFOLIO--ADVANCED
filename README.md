@@ -70,9 +70,9 @@ This project is licensed under the MIT License.
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+- **Email:** sasidharan0827@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/k-sasidharan/)
+- **GitHub:** [Your GitHub Profile](https://github.com/Sasidharan0827)
 
 ---
 Thank you for visiting my portfolio!
