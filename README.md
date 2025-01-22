@@ -1,84 +1,79 @@
-Bootstrap logo
+# Portfolio Website
 
-Bootstrap
-Sleek, intuitive, and powerful front-end framework for faster and easier web development.
-Explore Bootstrap docs »
+Welcome to my personal portfolio website! This project showcases my skills, projects, and experience in web development.
 
-Report bug · Request feature · Themes · Blog
+## Technologies Used
 
-Bootstrap 5
-Our default branch is for development of our Bootstrap 5 release. Head to the v4-dev branch to view the readme, documentation, and source code for Bootstrap 4.
+- **HTML5** - For structuring the content.
+- **CSS3** - For styling and layout.
+- **Bootstrap 5** - For responsive design and UI components.
 
-Table of contents
-Quick start
-Status
-What's included
-Bugs and feature requests
-Documentation
-Contributing
-Community
-Versioning
-Creators
-Thanks
-Copyright and license
-Quick start
-Several quick start options are available:
+## Features
 
-Download the latest release
-Clone the repo: git clone https://github.com/twbs/bootstrap.git
-Install with npm: npm install bootstrap@v5.3.3
-Install with yarn: yarn add bootstrap@v5.3.3
-Install with Composer: composer require twbs/bootstrap:5.3.3
-Install with NuGet: CSS: Install-Package bootstrap Sass: Install-Package bootstrap.sass
-Read the Getting started page for information on the framework contents, templates, examples, and more.
+- Fully responsive design
+- Modern and clean UI
+- Interactive elements using Bootstrap components
+- Easy navigation through sections
 
-Status
-Build Status npm version Gem version Meteor Atmosphere Packagist Prerelease NuGet Coverage Status CSS gzip size CSS Brotli size JS gzip size JS Brotli size Backers on Open Collective Sponsors on Open Collective
+## Project Structure
 
-What's included
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations.
+```
+portfolio/
+│-- index.html
+│-- about.html
+│-- projects.html
+│-- contact.html
+│-- assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│-- README.md
+```
 
-Download contents
-We provide compiled CSS and JS (bootstrap.*), as well as compiled and minified CSS and JS (bootstrap.min.*). Source maps (bootstrap.*.map) are available for use with certain browsers' developer tools. Bundled JS files (bootstrap.bundle.js and minified bootstrap.bundle.min.js) include Popper.
+## Installation
 
-Bugs and feature requests
-Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-portfolio.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd your-portfolio
+   ```
+3. Open `index.html` in your browser.
 
-Documentation
-Bootstrap's documentation, included in this repo in the root directory, is built with Hugo and publicly hosted on GitHub Pages at https://getbootstrap.com/. The docs may also be run locally.
+## Usage
 
-Documentation search is powered by Algolia's DocSearch.
+- Navigate through different sections (Home, About, Projects, Contact).
+- Explore the projects section to see my work.
+- Use the contact form to get in touch.
 
-Running documentation locally
-Run npm install to install the Node.js dependencies, including Hugo (the site builder).
-Run npm run test (or a specific npm script) to rebuild distributed CSS and JavaScript files, as well as our docs assets.
-From the root /bootstrap directory, run npm run docs-serve in the command line.
-Open http://localhost:9001/ in your browser, and voilà.
-Learn more about using Hugo by reading its documentation.
+## Customization
 
-Documentation for previous releases
-You can find all our previous releases docs on https://getbootstrap.com/docs/versions/.
+You can customize the content, images, and styles by modifying the respective files inside the `assets/` folder.
 
-Previous releases and their documentation are also available for download.
+## Deployment
 
-Contributing
-Please read through our contributing guidelines. Included are directions for opening issues, coding standards, and notes on development.
+You can deploy this portfolio using GitHub Pages, Netlify, or any static hosting provider.
 
-Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the Code Guide, maintained by Mark Otto.
+## Contributing
 
-Editor preferences are available in the editor config for easy use in common text editors. Read more and download plugins at https://editorconfig.org/.
+Feel free to fork the repository and submit pull requests if you have suggestions for improvement.
 
-Community
-Get updates on Bootstrap's development and chat with the project maintainers and community members.
+## License
 
-Follow @getbootstrap on Twitter.
-Read and subscribe to The Official Bootstrap Blog.
-Ask questions and explore our GitHub Discussions.
-Discuss, ask questions, and more on the community Discord or Bootstrap subreddit.
-Chat with fellow Bootstrappers in IRC. On the irc.libera.chat server, in the #bootstrap channel.
-Implementation help may be found at Stack Overflow (tagged bootstrap-5).
-Developers should use the keyword bootstrap on packages which modify or add to the functionality of Bootstrap when distributing through npm or similar delivery mechanisms for maximum discoverability.
-Versioning
-For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under the Semantic Versioning guidelines. Sometimes we screw up, but we adhere to those rules whenever possible.
+This project is licensed under the MIT License.
 
-See the Releases section of our GitHub project for changelogs for each release version of Bootstrap. Release announcement posts on the official Bootstrap blog contain summaries of the most noteworthy changes made in each release.
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- **Email:** your.email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+
+---
+Thank you for visiting my portfolio!
+
