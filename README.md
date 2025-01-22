@@ -45,7 +45,8 @@ portfolio/
 3. Open `index.html` in your browser.
 
 
-## Live Demo  ---->  https://sasi-dharan.netlify.app/
+## Live Demo 
+Click here:  https://sasi-dharan.netlify.app/
 
 ## Usage
 
