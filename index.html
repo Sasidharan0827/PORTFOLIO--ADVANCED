@@ -801,6 +801,70 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
     
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form submission
+      
+      let isValid = true;
+      const name = form.querySelector("input[placeholder='Your Name']");
+      const email = form.querySelector("input[placeholder='Your Email']");
+      const subject = form.querySelector("input[placeholder='Subject']");
+      const message = form.querySelector("textarea");
+
+      // Clear previous error messages
+      form.querySelectorAll(".error").forEach(el => el.remove());
+
+      // Name validation
+      if (name.value.trim() === "") {
+        showError(name, "Name is required.");
+        isValid = false;
+      }
+
+      // Email validation
+      if (email.value.trim() === "") {
+        showError(email, "Email is required.");
+        isValid = false;
+      } else if (!validateEmail(email.value.trim())) {
+        showError(email, "Invalid email format.");
+        isValid = false;
+      }
+
+      // Subject validation
+      if (subject.value.trim() === "") {
+        showError(subject, "Subject is required.");
+        isValid = false;
+      }
+
+      // Message validation
+      if (message.value.trim() === "") {
+        showError(message, "Message cannot be empty.");
+        isValid = false;
+      }
+
+      // If valid, submit the form
+      if (isValid) {
+        form.submit();
+      }
+    });
+
+    // Function to show error message
+    function showError(input, message) {
+      const errorDiv = document.createElement("div");
+      errorDiv.className = "error text-danger mt-1";
+      errorDiv.innerText = message;
+      input.parentNode.appendChild(errorDiv);
+    }
+
+    // Function to validate email
+    function validateEmail(email) {
+      const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      return re.test(email);
+    }
+  });
+</script>
+
   </body>
 </html>
