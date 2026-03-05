@@ -9672,37 +9672,3 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-/* Remove horizontal scrolling */
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;  /* Hides horizontal scrolling */
-}
-
-/* Ensure content doesn't exceed the viewport width */
-.container {
-  max-width: 100%;
-}
-
-/* Optional: If using Bootstrap row */
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-@media (max-width: 768px) {  /* For tablets and smaller screens */
-    .position {
-        font-size: 18px; /* Reduce font size */
-        text-align: center;
-        white-space: normal; /* Allow text wrapping */
-    }
-}
-
-@media (max-width: 480px) {  /* For mobile screens */
-    .position {
-        font-size: 16px; /* Further reduce font size */
-        text-align: center;
-        word-wrap: break-word; /* Break long words if needed */
-    }
-}
